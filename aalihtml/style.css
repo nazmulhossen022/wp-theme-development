@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Aali Theme
+Author: Nazmul Hossen
+Author URI: https://www.facebook.com/nazmul.hossen.77128/
+Description: Aali Theme is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Requires at least: 5.3
+Tested up to: 5.9
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: aali
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+*/
+
+/*.aali_tm_main_title[data-color="light"] span, .aali_tm_main_title[data-color="light"] h3, .aali_tm_main_title[data-color="light"] p {
+    color: #fff;
+}*/
+
+input[type="submit"]{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Josefin Sans";
+    display: inline-block;
+    background-color: #ea4343;
+    font-weight: 700;
+    position: relative;
+    padding: 20px 45px 30px 46px;
+    border-radius: 6px;
+    border: 2px solid #ea4343;
+    white-space: nowrap;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 
+}
+input[type="submit"]:hover {
+    background-color: transparent;
+    color: #000;
+}
